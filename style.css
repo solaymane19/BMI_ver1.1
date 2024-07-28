@@ -1,0 +1,71 @@
+body {
+  display: none;
+  box-sizing: border-box;
+  margin: 0;
+}
+@media (max-width: 600px) {
+  body {
+    display: block;
+    background-color: #224242;
+  }
+  input {
+    padding: 2.5px 5px;
+    width: 80%;
+    height: 5dvh;
+    font-size: 20px;
+    color: rgb(39, 39, 39);
+    margin-bottom: 10px;
+  }
+  input:active {
+    border-color: red;
+  }
+  label {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 8px;
+  }
+  button {
+    position: relative;
+    top: 30px;
+    width: 200px;
+    height: 6dvh;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(94, 93, 93);
+    box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.3);
+    transition: background-color 200ms ease-in-out;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: rgb(43, 43, 43);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  }
+  button:active {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.8);
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80dvh;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+  }
+  p {
+    color: #ffff;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+}
+.hm {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
